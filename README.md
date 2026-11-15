@@ -1,6 +1,6 @@
 # PRAXO-CORE for GNU Octave
 
-Native Octave Core for the PRAXO-CORE agent framework. This is the independent Octave package root and source tag `octave/v0.6.0`; it shares the implementation in `language/matlab-octave-core/+praxo` with the MATLAB package. It passes all eleven shared vector groups under GNU Octave 11.3.0 and includes the native agent loop, memory store, checkpoint allowlist, lexical path policy, context compaction, event sinks, middleware helpers, tool selection, an OpenTelemetry transport-seam sink, a retriever seam, and synchronous subagent delegation. It does not delegate behavior to Go or another language Core.
+Native Octave Core for the PRAXO-CORE agent framework. This is the independent Octave package root and source tag `octave/v0.7.0`; it shares the implementation in `language/matlab-octave-core/+praxo` with the MATLAB package. It passes all eleven shared vector groups under GNU Octave 11.3.0 and includes the native agent loop, memory store, checkpoint allowlist, lexical path policy, context compaction, event sinks, middleware helpers, tool selection, an OpenTelemetry transport-seam sink, a retriever seam, and synchronous subagent delegation. It does not delegate behavior to Go or another language Core.
 
 ## At a glance
 
@@ -9,9 +9,9 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Package | `praxo-core` |
 | Registry | [Octave Packages](https://github.com/axisvela/praxo-core/releases/download/octave/v0.2.1/praxo-core-0.2.1.tar.gz) |
 | Install | `pkg install -forge praxo-core` |
-| Source version | `0.6.0` |
+| Source version | `0.7.0` |
 | Published version | `0.2.1` |
-| Source tag | `octave/v0.6.0` |
+| Source tag | `octave/v0.7.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/octave/ |
