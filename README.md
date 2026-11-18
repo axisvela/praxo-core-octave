@@ -62,8 +62,10 @@ Runnable examples live under [`language/octave/examples`](language/octave/exampl
 
 | Example | What it shows |
 | --- | --- |
+| [advanced-delegation](language/octave/examples/advanced-delegation) | Octave wrappers for the shared MATLAB/Octave delegation and governance examples. |
 | [consumer](language/octave/examples/consumer) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/consumer/consumer_example.m`. The `run.m` wrapper adds the shared Core and example paths, then runs t... |
 | [live-model](language/octave/examples/live-model) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/live-model/live_model_example.m`. The `run.m` wrapper adds the shared Core and example paths, then ru... |
+| [representative-chain](language/octave/examples/representative-chain) | Octave wrapper for the shared MATLAB/Octave representative chain. |
 
 ## Verify
 
