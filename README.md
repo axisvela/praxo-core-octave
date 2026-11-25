@@ -9,9 +9,9 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Package | `praxo-core` |
 | Registry | [Octave Packages](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
 | Install | `pkg install -forge praxo-core` |
-| Source version | `0.8.0` |
+| Source version | `0.9.0` |
 | Published version | `0.7.0` |
-| Source tag | `octave/v0.8.0` |
+| Source tag | `octave/v0.9.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/octave/ |
