@@ -12,6 +12,8 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Source version | `0.8.0` |
 | Published version | `0.7.0` |
 | Source tag | `octave/v0.8.0` |
+| Tutorial tag | `octave/tutorial/v0.1.0` |
+| Examples tag | `octave/examples/v0.1.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/octave/ |
@@ -66,6 +68,17 @@ Runnable examples live under [`language/octave/examples`](language/octave/exampl
 | [consumer](language/octave/examples/consumer) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/consumer/consumer_example.m`. The `run.m` wrapper adds the shared Core and example paths, then runs t... |
 | [live-model](language/octave/examples/live-model) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/live-model/live_model_example.m`. The `run.m` wrapper adds the shared Core and example paths, then ru... |
 | [representative-chain](language/octave/examples/representative-chain) | Octave wrapper for the shared MATLAB/Octave representative chain. |
+
+## Scenario Tutorials
+
+Scenario-oriented tutorials live under `language/octave/Tutorial`.
+
+| Path | What it shows |
+| --- | --- |
+| [Tutorial](language/octave/Tutorial) | Application tutorials live in `Tutorial/`, alongside focused `language/go/examples/`. |
+| [signal-trends](language/octave/Tutorial/signal-trends) |  |
+| [vibration-review](language/octave/Tutorial/vibration-review) | A bounded vibration-analysis tutorial. It computes FFT/RMS for normal and anomalous signals, derives a high-frequency energy ratio, and lets Core choose normal or inspection rev... |
+| [water-quality](language/octave/Tutorial/water-quality) | A bounded pond water-quality tutorial. It computes fixed dissolved-oxygen and temperature indicators, compares oxygen with a threshold, and lets Core choose a normal or aeration... |
 
 ## Verify
 
