@@ -12,8 +12,6 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Source version | `0.8.0` |
 | Published version | `0.7.0` |
 | Source tag | `octave/v0.8.0` |
-| Tutorial tag | `octave/tutorial/v0.1.0` |
-| Examples tag | `octave/examples/v0.1.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/octave/ |
