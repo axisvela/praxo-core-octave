@@ -78,6 +78,8 @@ Scenario-oriented tutorials live under `language/octave/Tutorial`. Planning cont
 | [vibration-review](language/octave/Tutorial/vibration-review) | A bounded vibration-analysis tutorial. It computes FFT/RMS for normal and anomalous signals, derives a high-frequency energy ratio, and lets Core choose normal or inspection rev... |
 | [water-quality](language/octave/Tutorial/water-quality) | A bounded pond water-quality tutorial. It computes fixed dissolved-oxygen and temperature indicators, compares oxygen with a threshold, and lets Core choose a normal or aeration... |
 
+## Reference Applications
+
 No accepted end-to-end reference application is recorded for this language yet. Candidate goals are tracked in the [Reference Application Portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio).
 
 ## Verify
