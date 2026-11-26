@@ -67,6 +67,12 @@ Runnable examples live under [`language/octave/examples`](language/octave/exampl
 | [live-model](language/octave/examples/live-model) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/live-model/live_model_example.m`. The `run.m` wrapper adds the shared Core and example paths, then ru... |
 | [representative-chain](language/octave/examples/representative-chain) | Octave wrapper for the shared MATLAB/Octave representative chain. |
 
+## Tutorials and Candidate Scenarios
+
+Start with the [Tutorial Plan](https://axisvela.github.io/praxo-core/getting-started/tutorial-plan/) for delivery standards and the [reference application portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio), review the [100 candidate agent scenarios](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), and browse the [unified Tutorial Catalog](https://axisvela.github.io/praxo-core/getting-started/tutorial-catalog/).
+
+Chinese: [教程计划](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-plan/), [候选场景](https://axisvela.github.io/praxo-core/zh-CN/getting-started/agent-scenarios/), [教程目录](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-catalog/).
+
 ## Scenario Tutorials
 
 Scenario-oriented tutorials live under `language/octave/Tutorial`.
