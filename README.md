@@ -7,11 +7,11 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Field | Value |
 | --- | --- |
 | Package | `praxo-core` |
-| Registry | [GitHub release (Octave package index pending)](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
-| Download | [Release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
+| Registry | [GitHub release (Octave package index pending)](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz) |
+| Download | [Release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz) |
 | Source version | `0.9.0` |
-| Archive version | `0.7.0` |
-| Publication status | published release tarball 0.7.0; package index PR pending |
+| Archive version | `0.9.0` |
+| Publication status | published release tarball 0.9.0; package index PR pending |
 | Canonical source tag | [`octave/v0.9.0`](https://github.com/axisvela/praxo-core/tree/octave/v0.9.0) |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
@@ -31,7 +31,7 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 
 ## Quick start
 
-Download the [published release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz). The registry listing is still pending; do not assume registry installation is available.
+Download the [published release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz). The registry listing is still pending; do not assume registry installation is available.
 
 ```bash
 python language/octave/run-tests.py
