@@ -7,11 +7,12 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 | Field | Value |
 | --- | --- |
 | Package | `praxo-core` |
-| Registry | [Octave Packages](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
-| Install | `pkg install -forge praxo-core` |
+| Registry | [GitHub release (Octave package index pending)](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
+| Download | [Release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz) |
 | Source version | `0.9.0` |
-| Published version | `0.7.0` |
-| Source tag | `octave/v0.9.0` |
+| Archive version | `0.7.0` |
+| Publication status | published release tarball 0.7.0; package index PR pending |
+| Canonical source tag | [`octave/v0.9.0`](https://github.com/axisvela/praxo-core/tree/octave/v0.9.0) |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/octave/ |
@@ -30,11 +31,7 @@ Native Octave Core for the PRAXO-CORE agent framework. This is the independent O
 
 ## Quick start
 
-Install the published package:
-
-```bash
-pkg install -forge praxo-core
-```
+Download the [published release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.7.0/praxo-core-0.7.0.tar.gz). The registry listing is still pending; do not assume registry installation is available.
 
 ```bash
 python language/octave/run-tests.py
@@ -113,7 +110,7 @@ This mirror contains the language source and the shared `spec/` vectors, so the 
 - Mirror repository: https://github.com/axisvela/praxo-core-octave
 - Release index: https://axisvela.github.io/praxo-core/languages/registry-status/
 
-This repository is a discovery mirror of the canonical GNU Octave source. The monorepo remains the source of truth and the release workflow source.
+This repository is a discovery mirror of the canonical GNU Octave source. The monorepo remains the source of truth and the release workflow source. The mirror's `main` branch tracks current source, not a release snapshot. Source tags refer to the canonical monorepo and are not necessarily present in this mirror; syncing the branch does not publish mirror tags or registry packages.
 
 PRAXO-CORE is not a hosted model, workflow engine, identity provider, or safety controller. Do not infer exactly-once execution, complete sandbox isolation, production security certification, live-provider behavior, or physical safety from this package.
 
