@@ -1,6 +1,6 @@
 # PRAXO-CORE for GNU Octave
 
-Native Octave Core for the PRAXO-CORE agent framework. This is the independent Octave package root and source tag `octave/v0.9.0`; it shares the implementation in `language/matlab-octave-core/+praxo` with the MATLAB package. It passes all eleven shared vector groups under GNU Octave 11.3.0 and includes the native agent loop, memory store, checkpoint allowlist, lexical path policy, context compaction, event sinks, middleware helpers, tool selection, an OpenTelemetry transport-seam sink, a retriever seam, and synchronous subagent delegation. It does not delegate behavior to Go or another language Core.
+PRAXO-CORE (also written praxocore) is an embeddable, MIT-licensed agent framework. Native Octave Core for the PRAXO-CORE agent framework. This is the independent Octave package root and source tag `octave/v0.9.0`; it shares the implementation in `language/matlab-octave-core/+praxo` with the MATLAB package. It passes all eleven shared vector groups under GNU Octave 11.3.0 and includes the native agent loop, memory store, checkpoint allowlist, lexical path policy, context compaction, event sinks, middleware helpers, tool selection, an OpenTelemetry transport-seam sink, a retriever seam, and synchronous subagent delegation. It does not delegate behavior to Go or another language Core.
 
 ## At a glance
 
@@ -60,8 +60,8 @@ Runnable examples live under [`language/octave/examples`](language/octave/exampl
 | Example | What it shows |
 | --- | --- |
 | [advanced-delegation](language/octave/examples/advanced-delegation) | Octave wrappers for the shared MATLAB/Octave delegation and governance examples. |
-| [consumer](language/octave/examples/consumer) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/consumer/consumer_example.m`. The `run.m` wrapper adds the shared Core and example paths, then runs t... |
-| [live-model](language/octave/examples/live-model) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/live-model/live_model_example.m`. The `run.m` wrapper adds the shared Core and example paths, then ru... |
+| [consumer](language/octave/examples/consumer) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/consumer/consumer_example.m`. The `run.m` wrapper adds the shared Core and example paths, then runs the same deterministic allow/deny check. |
+| [live-model](language/octave/examples/live-model) | Octave reuses the shared MATLAB/Octave example at `language/matlab/examples/live-model/live_model_example.m`. The `run.m` wrapper adds the shared Core and example paths, then runs the same OpenAI-compatible `get_time` flow. |
 | [representative-chain](language/octave/examples/representative-chain) | Octave wrapper for the shared MATLAB/Octave representative chain. |
 
 ## Scenario Tutorials
@@ -72,8 +72,8 @@ Scenario-oriented tutorials live under `language/octave/Tutorial`. Planning cont
 | --- | --- |
 | [Tutorial](language/octave/Tutorial) | Application tutorials live in `Tutorial/`, alongside focused `language/go/examples/`. |
 | [signal-trends](language/octave/Tutorial/signal-trends) |  |
-| [vibration-review](language/octave/Tutorial/vibration-review) | A bounded vibration-analysis tutorial. It computes FFT/RMS for normal and anomalous signals, derives a high-frequency energy ratio, and lets Core choose normal or inspection rev... |
-| [water-quality](language/octave/Tutorial/water-quality) | A bounded pond water-quality tutorial. It computes fixed dissolved-oxygen and temperature indicators, compares oxygen with a threshold, and lets Core choose a normal or aeration... |
+| [vibration-review](language/octave/Tutorial/vibration-review) | A bounded vibration-analysis tutorial. It computes FFT/RMS for normal and anomalous signals, derives a high-frequency energy ratio, and lets Core choose normal or inspection review. No device is accessed and no failure is predicted. |
+| [water-quality](language/octave/Tutorial/water-quality) | A bounded pond water-quality tutorial. It computes fixed dissolved-oxygen and temperature indicators, compares oxygen with a threshold, and lets Core choose a normal or aeration-review branch. No sensor or aerator is accessed. |
 
 ## Reference Applications
 
@@ -82,6 +82,11 @@ No accepted end-to-end reference application is recorded for this language yet. 
 ## Verify
 
 This mirror contains the language source and the shared `spec/` vectors, so the implementation can be built and tested here. See [`language/octave/README.md`](language/octave/README.md) for the exact commands. The monorepo CI runs conformance, API snapshot, and native tests for this implementation.
+
+## Boundaries
+
+Reference application source is not end-to-end portfolio acceptance; follow each README's scope and evidence.
+PRAXO-CORE is not a hosted model, workflow engine, identity provider, or safety controller. Do not infer exactly-once execution, complete sandbox isolation, production security certification, live-provider behavior, or physical safety from this package.
 
 ## Community
 
@@ -112,6 +117,5 @@ This mirror contains the language source and the shared `spec/` vectors, so the 
 
 This repository is a discovery mirror of the canonical GNU Octave source. The monorepo remains the source of truth and the release workflow source. The mirror's `main` branch tracks current source, not a release snapshot. Source tags refer to the canonical monorepo and are not necessarily present in this mirror; syncing the branch does not publish mirror tags or registry packages.
 
-PRAXO-CORE is not a hosted model, workflow engine, identity provider, or safety controller. Do not infer exactly-once execution, complete sandbox isolation, production security certification, live-provider behavior, or physical safety from this package.
 
 MIT licensed.
