@@ -7,11 +7,11 @@ PRAXO-CORE (also written praxocore) is an embeddable, MIT-licensed agent framewo
 | Field | Value |
 | --- | --- |
 | Package | `praxo-core` |
-| Registry | [GitHub release (Octave package index pending)](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz) |
-| Download | [Release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz) |
+| Registry | [Octave Packages](https://gnu-octave.github.io/packages/praxo-core/) |
+| Install | `pkg install -forge praxo-core` |
 | Source version | `0.9.0` |
-| Archive version | `0.9.0` |
-| Publication status | published release tarball 0.9.0; package index PR pending |
+| Published version | `0.9.0` |
+| Publication status | published; indexed 2026-11-26; consumer install smoke not recorded |
 | Canonical source tag | [`octave/v0.9.0`](https://github.com/axisvela/praxo-core/tree/octave/v0.9.0) |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
@@ -31,7 +31,11 @@ PRAXO-CORE (also written praxocore) is an embeddable, MIT-licensed agent framewo
 
 ## Quick start
 
-Download the [published release assets](https://github.com/axisvela/praxo-core/releases/download/octave/v0.9.0/praxo-core-0.9.0.tar.gz). The registry listing is still pending; do not assume registry installation is available.
+Install the published package:
+
+```bash
+pkg install -forge praxo-core
+```
 
 ```bash
 python language/octave/run-tests.py
